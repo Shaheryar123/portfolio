@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px) {
+  .expCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .expCont {
+    display: block;
+    align-items: center;
+  }
+}
