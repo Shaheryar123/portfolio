@@ -10,7 +10,7 @@ const Footer = (props) => {
       <div id="stars2"></div>
       <Container>
         {props.children}
-        <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
+        {/* <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
         <a
           className="badge badge-dark"
           rel="noopener"
@@ -20,7 +20,7 @@ const Footer = (props) => {
         >
           Shaheryar Haider
         </a>{" "}
-        using <i className="fab fa-react" />
+        using <i className="fab fa-react" /> */}
       </Container>
     </footer>
   );

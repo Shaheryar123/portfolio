@@ -20,6 +20,18 @@ const Project = ({ heading, username, length, specfic }) => {
 
   const projectsArray = [
     {
+      name: "Cyber Cities (Progress)",
+      description:
+        "Cyber Cities is an American Ecommerce Store with 3d Antimated Custom UI for Products Listing.This web app contain multiple Vendor options and dropshipping feature to users.(This app is in Progress)",
+      languages_url: {
+        React_Js: 3200,
+        Javascript: 2000,
+        CSS: 1500,
+      },
+      svn_url:
+        "https://cyeber-cities.web.app/",
+    },
+    {
       name: "Splendid Accounts",
       description:
         "Splendid Invoices is a subsidiary app of Splendidaccounts.com, Splendid Accounts is an online accounting and inventory management system. In this app, you can manage your all sales activities.",
@@ -41,6 +53,18 @@ const Project = ({ heading, username, length, specfic }) => {
         CSS: 1500,
       },
       svn_url: "https://www.sayaansh.com/",
+    },
+    {
+      name: "Cyber Cities Vendor (Progress)",
+      description:
+        "Cyber Cities Vendor is for Vendors for Cyber Cities App which is an American Ecommerce Store with 3d Custom UI for Products.This web app contain multiple Vendor options and dropshipping feature to users.",
+      languages_url: {
+        React_Js: 3200,
+        Javascript: 2000,
+        CSS: 1500,
+      },
+      svn_url:
+        "https://cyber-cities-vendor.web.app/#/",
     },
     {
       name: "Salesman Tracking App",
