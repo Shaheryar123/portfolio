@@ -103,11 +103,9 @@ const skills = {
     { name: "JavaScript", value: 90 },
     { name: "React", value: 90 },
     { name: "React-Native", value: 90 },
-    { name: "Node", value: 70 },
     { name: "HTML/CSS", value: 80 },
-    { name: "Python", value: 60 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 70 },
+    { name: "Python", value: 80 },
+    { name: "Django", value: 65 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,7 +124,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for MERN Stack or React Native Role! If you know of any projects available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for Full Stack or React Native Role! If you know of any projects available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "shaheryarjerry@gmail.com",
 };
 
@@ -135,17 +133,17 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: "Software Engineer", // Here Add Company Name
-      companylogo: require("../assets/img/isplendid.png"),
-      date: "November 2021 – Present",
-    },
-    {
-      role: "React-Native Developer",
+      role: "Frontend Developer",
       companylogo: require("../assets/img/hnh2.png"),
       date: "January 2022 – Present",
     },
     {
-      role: "Junior GIS Analyst/Developer",
+      role: "Software Engineer", // Here Add Company Name
+      companylogo: require("../assets/img/isplendid.png"),
+      date: "November 2021 – April 2022",
+    },
+    {
+      role: "Junior GIS Developer",
       companylogo: require("../assets/img/ECIL.jpg"),
       date: "August 2020 – November 2021",
     },

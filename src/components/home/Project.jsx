@@ -20,7 +20,19 @@ const Project = ({ heading, username, length, specfic }) => {
 
   const projectsArray = [
     {
-      name: "Cyber Cities (Progress)",
+      name: "Payyd",
+      description:
+        "Payyd Is a online invoicing service for a freelancers, small businesses etc. Payyd redefined and reimagined the way anyone can do business internationally.",
+      languages_url: {
+        React_Js: 3200,
+        Javascript: 2000,
+        CSS: 1500,
+      },
+      svn_url:
+        "https://payyd.app/",
+    },
+    {
+      name: "Cyber Cities",
       description:
         "Cyber Cities is an American Ecommerce Store with 3d Antimated Custom UI for Products Listing.This web app contain multiple Vendor options and dropshipping feature to users.(This app is in Progress)",
       languages_url: {
@@ -30,6 +42,18 @@ const Project = ({ heading, username, length, specfic }) => {
       },
       svn_url:
         "https://cyeber-cities.web.app/",
+    },
+    {
+      name: "Payyd Portal",
+      description:
+      "Payyd Is a online invoicing service for a freelancers, small businesses etc. Payyd redefined and reimagined the way anyone can do business internationally.",
+      languages_url: {
+        React_Js: 3200,
+        Javascript: 2000,
+        CSS: 1500,
+      },
+      svn_url:
+      "https://payyd.money/login",
     },
     {
       name: "Splendid Accounts",
@@ -53,18 +77,6 @@ const Project = ({ heading, username, length, specfic }) => {
         CSS: 1500,
       },
       svn_url: "https://www.sayaansh.com/",
-    },
-    {
-      name: "Cyber Cities Vendor (Progress)",
-      description:
-        "Cyber Cities Vendor is for Vendors for Cyber Cities App which is an American Ecommerce Store with 3d Custom UI for Products.This web app contain multiple Vendor options and dropshipping feature to users.",
-      languages_url: {
-        React_Js: 3200,
-        Javascript: 2000,
-        CSS: 1500,
-      },
-      svn_url:
-        "https://cyber-cities-vendor.web.app/#/",
     },
     {
       name: "Salesman Tracking App",
